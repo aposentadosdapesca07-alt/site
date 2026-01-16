@@ -1,6 +1,6 @@
 import React from 'react';
 import { Frown, Map, AlertTriangle, Anchor, HelpCircle } from 'lucide-react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 
 const PainPoints: React.FC = () => {
@@ -83,3 +83,4 @@ const PainPoints: React.FC = () => {
 };
 
 export default PainPoints;
+

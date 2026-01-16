@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 
 const Footer: React.FC = () => {
@@ -71,3 +71,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+

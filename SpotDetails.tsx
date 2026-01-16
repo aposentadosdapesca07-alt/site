@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { ArrowLeft, MapPin } from 'lucide-react';
 import { EditableText, EditableImage } from './admin/Editable';
 import AdSpace from './AdSpace';
@@ -12,7 +12,7 @@ import AdSpace from './AdSpace';
 {/* ... (existing header image code) ... */ }
 
 // import outside? No, this file is fully contained.
-import { FishSpotInfo } from '../context/ContentContext';
+import { FishSpotInfo } from './context/ContentContext';
 import { X, Info, Image as ImageIcon, Edit2, Play } from 'lucide-react';
 import { useRef, useState, useEffect } from 'react';
 
@@ -583,3 +583,5 @@ const SpotDetails: React.FC = () => {
 };
 
 export default SpotDetails;
+
+

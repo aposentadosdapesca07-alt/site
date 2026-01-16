@@ -1,6 +1,6 @@
 import React from 'react';
 import { Users } from 'lucide-react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText, EditableImage } from './admin/Editable';
 import { Draggable } from './admin/Draggable';
 
@@ -138,3 +138,5 @@ const AboutUs: React.FC = () => {
 };
 
 export default AboutUs;
+
+

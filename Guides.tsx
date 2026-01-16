@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 import { BookOpen, Target, Anchor } from 'lucide-react';
 
@@ -79,3 +79,5 @@ const Guides: React.FC = () => {
 };
 
 export default Guides;
+
+

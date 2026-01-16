@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle2, Fish, Anchor, Tv, HelpCircle } from 'lucide-react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 
 const Features: React.FC = () => {
@@ -132,3 +132,4 @@ const Features: React.FC = () => {
 };
 
 export default Features;
+

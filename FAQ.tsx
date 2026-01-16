@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 import { Plus, Minus } from 'lucide-react';
 
@@ -57,3 +57,4 @@ const FAQ: React.FC = () => {
 };
 
 export default FAQ;
+

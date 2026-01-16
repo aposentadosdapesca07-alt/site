@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useContent } from '../../context/ContentContext';
+import { useContent } from '../context/ContentContext';
 import { Edit2, Save, X, Image as ImageIcon } from 'lucide-react';
 
 interface EditableTextProps {
@@ -147,3 +147,4 @@ export const EditableImage: React.FC<EditableImageProps> = ({ src, alt, onSave, 
         </div>
     );
 };
+

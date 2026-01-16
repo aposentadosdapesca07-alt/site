@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText, EditableImage } from './admin/Editable';
 import { Play } from 'lucide-react';
 
@@ -95,3 +95,5 @@ const Videos: React.FC = () => {
 };
 
 export default Videos;
+
+

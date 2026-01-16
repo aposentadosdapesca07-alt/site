@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useContent } from '../../context/ContentContext';
+import { useContent } from '../context/ContentContext';
 import { Move } from 'lucide-react';
 
 interface DraggableProps {
@@ -135,3 +135,4 @@ export const Draggable: React.FC<DraggableProps> = ({ id, position, onDrag, chil
         </div>
     );
 };
+

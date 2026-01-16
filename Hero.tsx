@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 import { Draggable } from './admin/Draggable';
 
@@ -126,3 +126,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+

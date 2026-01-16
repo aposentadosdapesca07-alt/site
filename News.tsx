@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 import { Calendar, ArrowRight } from 'lucide-react';
 
@@ -73,3 +73,5 @@ const News: React.FC = () => {
 };
 
 export default News;
+
+

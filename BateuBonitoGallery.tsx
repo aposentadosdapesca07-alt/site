@@ -48,3 +48,5 @@ const BateuBonitoGallery: React.FC = () => {
 };
 
 export default BateuBonitoGallery;
+
+

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText, EditableImage } from './admin/Editable';
 import { MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -203,3 +203,5 @@ const Spots: React.FC = () => {
 };
 
 export default Spots;
+
+

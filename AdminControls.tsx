@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { Save, X, RotateCcw } from 'lucide-react';
 
 const AdminControls: React.FC = () => {
@@ -43,3 +43,5 @@ const AdminControls: React.FC = () => {
 };
 
 export default AdminControls;
+
+

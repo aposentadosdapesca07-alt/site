@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, MessageSquare, Send, Youtube } from 'lucide-react';
-import { useContent } from '../context/ContentContext';
+import { useContent } from './context/ContentContext';
 import { EditableText } from './admin/Editable';
 
 const Contact: React.FC = () => {
@@ -178,3 +178,5 @@ const Contact: React.FC = () => {
 };
 
 export default Contact;
+
+
